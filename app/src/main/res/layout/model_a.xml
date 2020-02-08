@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/hlayout"
+    android:background="@drawable/ripple_layout"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/himg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:src="@drawable/books"
+        android:scaleType="fitXY"
+
+        />
+
+        <TextView
+            android:id="@+id/htitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/himg"
+            android:layout_toRightOf="@+id/himg"
+            android:text="name of library"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/htype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/htitle"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/himg"
+            android:layout_toRightOf="@+id/himg"
+            android:text="type"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/htitle"
+        android:layout_toRightOf="@+id/htype"
+        android:visibility="invisible" />
+
+        <!--android:text="This is a very long text and we need to show 3...(dots)" -->
+
+
+</RelativeLayout>
+
+</LinearLayout>

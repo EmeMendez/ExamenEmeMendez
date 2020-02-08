@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EduSeeker</string>
+    <string name="title_activity_map">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Favorite buttons -->
+    <string name="favorite_add">Añadir a Favoritos</string>
+    <string name="favorite_delete">Eliminar de Favoritos</string>
+
+    <!-- TODO: Dialog Delete -->
+    <string name="dialog_delete_title">Eliminar de Favoritos</string>
+    <string name="dialog_delete_question">¿Seguro que desea eliminar esta bibliotecta de sus favoritos?</string>
+
+
+</resources>
